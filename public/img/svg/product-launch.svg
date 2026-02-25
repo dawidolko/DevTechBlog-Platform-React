@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400">
+  <circle cx="250" cy="200" r="160" fill="#f0f1ff" opacity="0.4"/>
+
+  <!-- Rocket body -->
+  <g transform="translate(190, 60) rotate(15, 60, 140)">
+    <!-- Rocket body -->
+    <path d="M60 40 Q60 0 60 0 Q60 0 60 40" fill="#ff825c"/>
+    <ellipse cx="60" cy="30" rx="30" ry="50" fill="#18216d"/>
+    <ellipse cx="60" cy="30" rx="22" ry="42" fill="#2e186a"/>
+
+    <!-- Rocket window -->
+    <circle cx="60" cy="20" r="10" fill="#61DAFB" opacity="0.8"/>
+    <circle cx="60" cy="20" r="6" fill="#1a1a2e"/>
+
+    <!-- Rocket fins -->
+    <path d="M30 60 Q15 80 25 90 L40 75 Z" fill="#ff825c"/>
+    <path d="M90 60 Q105 80 95 90 L80 75 Z" fill="#ff825c"/>
+
+    <!-- Rocket base -->
+    <path d="M40 75 L60 85 L80 75 L75 95 Q60 100 45 95 Z" fill="#18216d"/>
+
+    <!-- Flame -->
+    <ellipse cx="60" cy="105" rx="12" ry="20" fill="#ff825c" opacity="0.8"/>
+    <ellipse cx="60" cy="108" rx="7" ry="14" fill="#febc2e"/>
+    <ellipse cx="60" cy="110" rx="4" ry="8" fill="#fff" opacity="0.6"/>
+  </g>
+
+  <!-- Stars/particles -->
+  <circle cx="120" cy="100" r="3" fill="#ff825c" opacity="0.6"/>
+  <circle cx="380" cy="150" r="4" fill="#61DAFB" opacity="0.5"/>
+  <circle cx="100" cy="250" r="3" fill="#3178C6" opacity="0.6"/>
+  <circle cx="400" cy="280" r="3" fill="#ff825c" opacity="0.4"/>
+  <circle cx="350" cy="90" r="2" fill="#febc2e" opacity="0.7"/>
+  <circle cx="150" cy="300" r="2" fill="#61DAFB" opacity="0.5"/>
+
+  <!-- Cloud elements -->
+  <g transform="translate(80, 200)" opacity="0.3">
+    <ellipse cx="30" cy="20" rx="30" ry="15" fill="#18216d"/>
+    <ellipse cx="55" cy="15" rx="25" ry="18" fill="#18216d"/>
+    <ellipse cx="70" cy="22" rx="20" ry="12" fill="#18216d"/>
+  </g>
+
+  <g transform="translate(300, 250)" opacity="0.2">
+    <ellipse cx="25" cy="15" rx="25" ry="12" fill="#18216d"/>
+    <ellipse cx="50" cy="12" rx="22" ry="15" fill="#18216d"/>
+    <ellipse cx="65" cy="18" rx="18" ry="10" fill="#18216d"/>
+  </g>
+
+  <!-- Code brackets floating -->
+  <text x="100" y="170" font-family="monospace" font-size="28" fill="#18216d" opacity="0.2">{</text>
+  <text x="370" y="200" font-family="monospace" font-size="28" fill="#18216d" opacity="0.2">}</text>
+
+  <!-- Binary dots trail -->
+  <circle cx="300" cy="310" r="3" fill="#18216d" opacity="0.15"/>
+  <circle cx="315" cy="320" r="3" fill="#18216d" opacity="0.12"/>
+  <circle cx="330" cy="330" r="3" fill="#18216d" opacity="0.09"/>
+  <circle cx="345" cy="340" r="3" fill="#18216d" opacity="0.06"/>
+</svg>

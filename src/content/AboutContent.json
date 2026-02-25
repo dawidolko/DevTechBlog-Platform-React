@@ -1,0 +1,16 @@
+{
+  "title": "Built for Modern Developers",
+  "text": "DevPulse covers the full stack — from frontend frameworks to cloud infrastructure. We focus on practical, production-ready knowledge that helps you build better software.",
+  "section": [
+    {
+      "title": "In-Depth Tutorials",
+      "content": "Step-by-step guides with real code examples. No toy demos — everything is production-grade and battle-tested.",
+      "icon": "notes.svg"
+    },
+    {
+      "title": "Architecture & Design",
+      "content": "System design patterns, scalability strategies, and architectural decisions explained with clear diagrams and trade-off analysis.",
+      "icon": "notes.svg"
+    }
+  ]
+}

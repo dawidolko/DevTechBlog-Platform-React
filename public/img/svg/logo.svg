@@ -1,0 +1,7 @@
+<svg viewBox="0 0 180 50" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="5" width="40" height="40" rx="8" fill="#18216d"/>
+  <path d="M10 25 L15 25 L18 13 L22 37 L26 25 L31 25" stroke="rgb(255,130,92)" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="48" y="23" font-family="sans-serif" font-size="18" font-weight="bold" fill="#18216d">Dev</text>
+  <text x="80" y="23" font-family="sans-serif" font-size="18" font-weight="bold" fill="rgb(255,130,92)">Pulse</text>
+  <text x="48" y="38" font-family="sans-serif" font-size="9" fill="#6b6b8d" letter-spacing="2.5">TECH BLOG</text>
+</svg>

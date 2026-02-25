@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400">
+  <circle cx="250" cy="200" r="160" fill="#f0f1ff" opacity="0.4"/>
+
+  <!-- Code editor window -->
+  <rect x="90" y="70" width="320" height="260" rx="12" fill="#1a1a2e"/>
+
+  <!-- Title bar -->
+  <rect x="90" y="70" width="320" height="35" rx="12" fill="#2e186a"/>
+  <rect x="90" y="93" width="320" height="12" fill="#2e186a"/>
+  <circle cx="113" cy="87" r="5" fill="#ff5f57"/>
+  <circle cx="131" cy="87" r="5" fill="#febc2e"/>
+  <circle cx="149" cy="87" r="5" fill="#28c840"/>
+
+  <!-- Tab -->
+  <rect x="175" y="78" width="90" height="18" rx="4" fill="rgba(255,255,255,0.1)"/>
+  <rect x="183" y="84" width="50" height="6" rx="2" fill="rgba(255,255,255,0.4)"/>
+
+  <!-- Line numbers -->
+  <text x="108" y="128" font-family="monospace" font-size="11" fill="#4a4a6a">1</text>
+  <text x="108" y="145" font-family="monospace" font-size="11" fill="#4a4a6a">2</text>
+  <text x="108" y="162" font-family="monospace" font-size="11" fill="#4a4a6a">3</text>
+  <text x="108" y="179" font-family="monospace" font-size="11" fill="#4a4a6a">4</text>
+  <text x="108" y="196" font-family="monospace" font-size="11" fill="#4a4a6a">5</text>
+  <text x="108" y="213" font-family="monospace" font-size="11" fill="#4a4a6a">6</text>
+  <text x="108" y="230" font-family="monospace" font-size="11" fill="#4a4a6a">7</text>
+  <text x="108" y="247" font-family="monospace" font-size="11" fill="#4a4a6a">8</text>
+  <text x="108" y="264" font-family="monospace" font-size="11" fill="#4a4a6a">9</text>
+  <text x="104" y="281" font-family="monospace" font-size="11" fill="#4a4a6a">10</text>
+  <text x="104" y="298" font-family="monospace" font-size="11" fill="#4a4a6a">11</text>
+
+  <!-- Code lines -->
+  <rect x="128" y="120" width="60" height="8" rx="2" fill="#c4b5fd"/>
+  <rect x="195" y="120" width="80" height="8" rx="2" fill="#61DAFB"/>
+
+  <rect x="128" y="137" width="40" height="8" rx="2" fill="#ff825c"/>
+  <rect x="175" y="137" width="100" height="8" rx="2" fill="#e0e0ee" opacity="0.4"/>
+
+  <rect x="145" y="154" width="30" height="8" rx="2" fill="#c4b5fd"/>
+  <rect x="182" y="154" width="70" height="8" rx="2" fill="#98d4a6"/>
+
+  <rect x="145" y="171" width="55" height="8" rx="2" fill="#61DAFB"/>
+  <rect x="207" y="171" width="85" height="8" rx="2" fill="#e0e0ee" opacity="0.4"/>
+
+  <rect x="145" y="188" width="45" height="8" rx="2" fill="#ff825c"/>
+  <rect x="197" y="188" width="65" height="8" rx="2" fill="#98d4a6"/>
+
+  <rect x="128" y="205" width="20" height="8" rx="2" fill="#c4b5fd"/>
+
+  <rect x="128" y="222" width="50" height="8" rx="2" fill="#ff825c"/>
+  <rect x="185" y="222" width="90" height="8" rx="2" fill="#61DAFB"/>
+
+  <rect x="145" y="239" width="110" height="8" rx="2" fill="#e0e0ee" opacity="0.4"/>
+
+  <rect x="145" y="256" width="35" height="8" rx="2" fill="#98d4a6"/>
+  <rect x="187" y="256" width="60" height="8" rx="2" fill="#c4b5fd"/>
+
+  <rect x="128" y="273" width="20" height="8" rx="2" fill="#c4b5fd"/>
+
+  <rect x="128" y="290" width="90" height="8" rx="2" fill="#61DAFB"/>
+
+  <!-- Cursor blink -->
+  <rect x="225" y="290" width="2" height="10" fill="#61DAFB">
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+</svg>

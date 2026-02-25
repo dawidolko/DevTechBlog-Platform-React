@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60">
+  <!-- Article/blog post icon -->
+  <rect x="8" y="5" width="44" height="50" rx="6" fill="#f0f1ff" stroke="#18216d" stroke-width="2"/>
+  <rect x="16" y="14" width="28" height="4" rx="2" fill="#18216d"/>
+  <rect x="16" y="23" width="24" height="3" rx="1.5" fill="#6b6b8d" opacity="0.5"/>
+  <rect x="16" y="30" width="28" height="3" rx="1.5" fill="#6b6b8d" opacity="0.5"/>
+  <rect x="16" y="37" width="20" height="3" rx="1.5" fill="#6b6b8d" opacity="0.5"/>
+  <rect x="16" y="46" width="12" height="4" rx="2" fill="#ff825c"/>
+</svg>

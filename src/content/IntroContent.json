@@ -1,0 +1,13 @@
+{
+  "title": "DevPulse — Where Developers Stay Ahead",
+  "text": "Practical insights on React, TypeScript, Node.js, DevOps, AI, and system design. Written by engineers, for engineers — no fluff, just code that works.",
+  "button": [
+    {
+      "title": "Read Articles"
+    },
+    {
+      "title": "Explore Topics",
+      "color": "#fff"
+    }
+  ]
+}
