@@ -38,3 +38,6 @@ coverage/
 # Misc
 *.tgz
 .eslintcache
+
+# Machine-local Claude settings
+.claude/settings.local.json
