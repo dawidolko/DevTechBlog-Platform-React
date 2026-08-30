@@ -24,6 +24,7 @@ const Home = () => {
         button={IntroContent.button}
         icon="developer.svg"
         id="intro"
+        isPageHeading
       />
       <MiddleBlock
         title={MiddleBlockContent.title}

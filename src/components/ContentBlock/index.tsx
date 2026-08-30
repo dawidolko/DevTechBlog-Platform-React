@@ -25,6 +25,7 @@ const ContentBlock = ({
   t,
   id,
   direction,
+  isPageHeading = false,
 }: ContentBlockProps) => {
   const scrollTo = (id: string) => {
     const element = document.getElementById(id) as HTMLDivElement;
@@ -47,7 +48,14 @@ const ContentBlock = ({
           </Col>
           <Col lg={11} md={11} sm={11} xs={24}>
             <ContentWrapper>
-              <h6>{t(title)}</h6>
+              {/* The block title is a real section heading. Rendering it as
+                  h6 left the page with no h1 and an outline that started at
+                  level six. */}
+              {isPageHeading ? (
+                <h1>{t(title)}</h1>
+              ) : (
+                <h2>{t(title)}</h2>
+              )}
               <Content>{t(content)}</Content>
               {direction === "right" ? (
                 <ButtonWrapper>

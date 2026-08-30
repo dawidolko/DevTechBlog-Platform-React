@@ -9,8 +9,14 @@ const Router = () => {
   return (
     <Suspense fallback={null}>
       <Styles />
+      {/* First focusable element on every route: lets a keyboard user skip the
+          header navigation and land on the article content. */}
+      <a className="skip-link" href="#main-content">
+        Skip to main content
+      </a>
       <Header />
-      <Switch>
+      <main id="main-content" tabIndex={-1}>
+        <Switch>
         {routes.map((routeItem) => {
           return (
             <Route
@@ -21,7 +27,8 @@ const Router = () => {
             />
           );
         })}
-      </Switch>
+        </Switch>
+      </main>
       <Footer />
     </Suspense>
   );
