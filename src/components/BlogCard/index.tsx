@@ -35,7 +35,7 @@ const BlogCard = ({ post }: BlogCardProps) => {
   };
 
   return (
-    <Link to={`/post/${post.id}`} style={{ textDecoration: "none" }}>
+    <Link to={`/post/${post.id}/`} style={{ textDecoration: "none" }}>
       <Card>
         <CardImageWrapper>
           <CardImage>

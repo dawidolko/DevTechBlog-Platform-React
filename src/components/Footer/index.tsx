@@ -54,7 +54,7 @@ const Footer = ({ t }: { t: TFunction }) => {
   };
 
   return (
-    <>
+    <footer>
       <FooterSection>
         <Container>
           <Row justify="space-between">
@@ -69,8 +69,8 @@ const Footer = ({ t }: { t: TFunction }) => {
             </Col>
             <Col lg={8} md={8} sm={12} xs={12}>
               <Title>Legal</Title>
-              <Large to="/privacy">Privacy Policy</Large>
-              <Large to="/guidelines">Editorial Guidelines</Large>
+              <Large to="/privacy/">Privacy Policy</Large>
+              <Large to="/guidelines/">Editorial Guidelines</Large>
             </Col>
             <Col lg={6} md={6} sm={12} xs={12}>
               <Empty />
@@ -92,8 +92,8 @@ const Footer = ({ t }: { t: TFunction }) => {
             <Col lg={8} md={8} sm={12} xs={12}>
               <Title>Explore</Title>
               <Large to="/">Home</Large>
-              <Large to="/privacy">Privacy</Large>
-              <Large to="/guidelines">Guidelines</Large>
+              <Large to="/privacy/">Privacy</Large>
+              <Large to="/guidelines/">Guidelines</Large>
             </Col>
             <Col lg={6} md={6} sm={12} xs={12}>
               <Empty />
@@ -111,7 +111,7 @@ const Footer = ({ t }: { t: TFunction }) => {
             align="middle"
             style={{ paddingTop: "3rem" }}
           >
-            <NavLink to="/">
+            <NavLink to="/" aria-label="DevPulse home page">
               <LogoContainer>
                 <SvgIcon
                   src="logo.svg"
@@ -142,7 +142,7 @@ const Footer = ({ t }: { t: TFunction }) => {
           </Row>
         </Container>
       </Extra>
-    </>
+    </footer>
   );
 };
 

@@ -21,7 +21,7 @@ const Header = ({ t }: { t: TFunction }) => {
   const [visible, setVisibility] = useState(false);
   const history = useHistory();
   const location = useLocation();
-  const isHome = location.pathname === "/" || location.pathname === "/home";
+  const isHome = location.pathname === "/";
 
   const toggleButton = () => {
     setVisibility(!visible);

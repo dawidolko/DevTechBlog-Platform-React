@@ -1,0 +1,25 @@
+# DevPulse
+
+> DevPulse is a demonstration developer tech blog built with React and TypeScript by Dawid Olko. It publishes practical articles on React, TypeScript, Node.js, DevOps, AI and system design.
+
+## Articles
+
+- [React Server Components](https://devtechblog.dawidolko.pl/post/react-server-components-2025/): when to use them and patterns for production
+- [TypeScript 5.x Decorators](https://devtechblog.dawidolko.pl/post/typescript-5-decorators/): validation, logging and dependency injection
+- [Building an AI-Powered CLI Tool](https://devtechblog.dawidolko.pl/post/building-ai-powered-cli/): a developer CLI for code review and documentation
+- [Docker Multi-Stage Builds](https://devtechblog.dawidolko.pl/post/docker-multi-stage-builds/): lean containers for Node.js and React
+- [Event-Driven Architecture in Node.js](https://devtechblog.dawidolko.pl/post/event-driven-architecture-node/): queues, event sourcing and CQRS
+- [Core Web Vitals in React](https://devtechblog.dawidolko.pl/post/core-web-vitals-react/): improving LCP, INP and CLS
+- [Kubernetes for Developers](https://devtechblog.dawidolko.pl/post/kubernetes-dev-workflow/): a productive local setup
+- [Senior Engineer Communication](https://devtechblog.dawidolko.pl/post/senior-engineer-communication/): RFCs, feedback and influence
+- [RAG Patterns for Production](https://devtechblog.dawidolko.pl/post/rag-patterns-production/): chunking, retrieval, re-ranking and evaluation
+
+## Pages
+
+- [Home](https://devtechblog.dawidolko.pl/): latest articles and what the blog covers
+- [Privacy Policy](https://devtechblog.dawidolko.pl/privacy/): how the site handles data
+- [Editorial Guidelines](https://devtechblog.dawidolko.pl/guidelines/): how articles are written and reviewed
+
+## Author
+
+- [Dawid Olko](https://dawidolko.pl): Fullstack / AI Developer, author of this project

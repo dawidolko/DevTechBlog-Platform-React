@@ -15,8 +15,8 @@ export const Content = styled("p")`
 `;
 
 export const StyledRow = styled(Row)`
-  flex-direction: ${({ direction }: { direction: string }) =>
-    direction === "left" ? "row" : "row-reverse"};
+  flex-direction: ${({ $direction }: { $direction: string }) =>
+    $direction === "left" ? "row" : "row-reverse"};
 `;
 
 export const ContentWrapper = styled("div")`
@@ -34,7 +34,7 @@ export const ServiceWrapper = styled("div")`
   max-width: 100%;
 `;
 
-export const MinTitle = styled("h6")`
+export const MinTitle = styled("h3")`
   font-size: 15px;
   line-height: 1rem;
   padding: 0.5rem 0;

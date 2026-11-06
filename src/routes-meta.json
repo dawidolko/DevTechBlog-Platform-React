@@ -1,0 +1,62 @@
+[
+  {
+    "path": "/",
+    "title": "DevPulse | Developer Tech Blog on React and Node.js",
+    "description": "Developer tech blog with practical articles on React, TypeScript, Node.js, DevOps and system design. Built with React and TypeScript."
+  },
+  {
+    "path": "/privacy/",
+    "title": "Privacy Policy | DevPulse Developer Tech Blog",
+    "description": "How DevPulse handles contact form submissions, anonymous usage statistics and cookies, and what control readers have over their data."
+  },
+  {
+    "path": "/guidelines/",
+    "title": "Editorial Guidelines | DevPulse Developer Tech Blog",
+    "description": "The standards every DevPulse article follows: accuracy, practical value and a clear review process, plus how to write for the blog."
+  },
+  {
+    "path": "/post/react-server-components-2025/",
+    "title": "React Server Components: A Practical Guide for 2025",
+    "description": "Server Components have changed React architecture. Learn when to use them, common pitfalls, and real-world patterns that work in production."
+  },
+  {
+    "path": "/post/typescript-5-decorators/",
+    "title": "TypeScript 5.x Decorators: Beyond the Basics | DevPulse",
+    "description": "The new TC39 standard decorators in TypeScript 5 are production-ready. Explore advanced patterns for validation, logging, and dependency injection."
+  },
+  {
+    "path": "/post/building-ai-powered-cli/",
+    "title": "Building an AI-Powered CLI Tool with Node.js and Claude",
+    "description": "Step-by-step guide to creating a developer CLI that uses Claude's API for code review, refactoring suggestions, and documentation generation."
+  },
+  {
+    "path": "/post/docker-multi-stage-builds/",
+    "title": "Docker Multi-Stage Builds: Shrink Your Images by 90%",
+    "description": "Production Docker images don't need to be gigabytes. Learn multi-stage build patterns that create lean, secure containers for Node.js and React apps."
+  },
+  {
+    "path": "/post/event-driven-architecture-node/",
+    "title": "Event-Driven Architecture in Node.js: Patterns That Scale",
+    "description": "Move beyond REST. Explore event-driven patterns with message queues, event sourcing, and CQRS that handle millions of events in Node.js services."
+  },
+  {
+    "path": "/post/core-web-vitals-react/",
+    "title": "Core Web Vitals in React: From Red to Green in a Weekend",
+    "description": "Your Lighthouse score doesn't have to be embarrassing. Practical techniques to improve LCP, INP, and CLS in React applications without a full rewrite."
+  },
+  {
+    "path": "/post/kubernetes-dev-workflow/",
+    "title": "Kubernetes for Developers: A No-Nonsense Local Setup",
+    "description": "You don't need to be a DevOps expert to use Kubernetes. Set up a productive local K8s environment with hot reload, debugging, and fast iteration."
+  },
+  {
+    "path": "/post/senior-engineer-communication/",
+    "title": "The #1 Skill That Separates Senior Engineers (It's Not Code)",
+    "description": "Technical skills get you hired, but communication skills get you promoted. Learn frameworks for writing better RFCs, giving feedback, and influencing decisions."
+  },
+  {
+    "path": "/post/rag-patterns-production/",
+    "title": "RAG Patterns for Production: Beyond the Tutorial | DevPulse",
+    "description": "Most RAG tutorials stop at 'it works locally.' Learn production patterns for chunking, retrieval, re-ranking, and evaluation that actually work at scale."
+  }
+]

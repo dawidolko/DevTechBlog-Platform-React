@@ -4,6 +4,7 @@ import Container from "../../common/Container";
 import BlogCard from "../../components/BlogCard";
 import { getPostById, blogPosts } from "../../data/posts";
 import { categories } from "../../data/categories";
+import NotFound from "../NotFound";
 import {
   PostContainer,
   BackLink,
@@ -37,8 +38,7 @@ const Post = () => {
   }, [id]);
 
   if (!post) {
-    history.push("/");
-    return null;
+    return <NotFound />;
   }
 
   const categoryInfo = categories.find((c) => c.name === post.category);
@@ -140,7 +140,7 @@ const Post = () => {
               {relatedPosts.map((relPost) => (
                 <div
                   key={relPost.id}
-                  onClick={() => history.push(`/post/${relPost.id}`)}
+                  onClick={() => history.push(`/post/${relPost.id}/`)}
                 >
                   <BlogCard post={relPost} />
                 </div>

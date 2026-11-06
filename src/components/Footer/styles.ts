@@ -1,12 +1,12 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 
-export const FooterSection = styled("footer")`
+export const FooterSection = styled("div")`
   background: rgb(241, 242, 243);
   padding: 2.5rem 0;
 `;
 
-export const Title = styled("h4")`
+export const Title = styled("h2")`
   font-size: 22px;
   text-transform: capitalize;
   color: #18216d;
@@ -29,7 +29,7 @@ export const NavLink = styled(Link)`
   }
 `;
 
-export const Extra = styled("section")`
+export const Extra = styled("div")`
   background: rgb(241, 242, 243);
   position: relative;
   width: 100%;
@@ -125,7 +125,7 @@ export const FooterContainer = styled("div")`
   }
 `;
 
-export const Language = styled("h4")`
+export const Language = styled("h2")`
   font-size: 22px;
   text-transform: capitalize;
   color: #18216d;

@@ -4,14 +4,16 @@ export const Styles = createGlobalStyle`
 
     @font-face {
         font-family: "Motiva Sans Light";
-        src: url("/fonts/Motiva-Sans-Light.ttf") format("truetype");
+        src: url("/fonts/Motiva-Sans-Light.woff2") format("woff2");
         font-style: normal;
+        font-display: swap;
     }
 
     @font-face {
         font-family: "Motiva Sans Bold";
-        src: url("/fonts/Motiva-Sans-Bold.ttf") format("truetype");
+        src: url("/fonts/Motiva-Sans-Bold.woff2") format("woff2");
         font-style: normal;
+        font-display: swap;
     }
 
 
