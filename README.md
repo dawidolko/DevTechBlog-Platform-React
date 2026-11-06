@@ -45,6 +45,14 @@ The repository demonstrates a clean separation between the data layer and the pr
 
 ---
 
+## 🎬 Demo
+
+<p align="center">
+  <img src="docs/readme/demo.webp" alt="DevPulse: a short scroll through the live site" width="80%">
+</p>
+
+---
+
 ## 🛠️ Technology Stack
 
 ### Frontend
