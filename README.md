@@ -1,3 +1,7 @@
+<p align="center">
+  <a href="https://devtechblog.dawidolko.pl/"><img src="docs/readme/banner.webp" alt="DevPulse — Developer Tech Blog: web platform. Modern Developer Tech Blog with React & TypeScript - Practical articles on React, TypeScript, Node.js, DevOps, AI and system design" width="100%"></a>
+</p>
+
 # DevPulse — Developer Tech Blog
 
 > 🚀 **Modern Developer Tech Blog with React & TypeScript** - Practical articles on React, TypeScript, Node.js, DevOps, AI and system design
@@ -11,6 +15,8 @@ The repository demonstrates a clean separation between the data layer and the pr
 ![Ant Design](https://img.shields.io/badge/Ant%20Design-4.24-0170FE?logo=antdesign&logoColor=white)
 ![Styled Components](https://img.shields.io/badge/styled--components-5.3-DB7093?logo=styledcomponents&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-green)
+
+**[Live site](https://devtechblog.dawidolko.pl/)** · [Screenshots](#️-screenshots) · [Getting started](#-getting-started)
 
 ---
 
@@ -123,6 +129,12 @@ The workflow file is at `.github/workflows/deploy.yml`.
 
 ---
 
+## ♿ Accessibility
+
+An accessibility panel in the corner of every page changes text size, contrast, font and motion, and remembers the choice on the device. It sits on top of the markup and does not replace accessible markup.
+
+---
+
 ## 📁 Project Structure
 
 ```
@@ -162,12 +174,6 @@ To add a new blog post, edit `src/data/posts.ts` and add an entry to the `blogPo
 
 ---
 
-## 🌍 Live Demo
-
-The project is deployed and available at: **[https://devtechblog.dawidolko.pl](https://devtechblog.dawidolko.pl)**
-
----
-
 ## 📄 License
 
 This project is open source and available under the [MIT License](LICENSE).
@@ -176,7 +182,6 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## 👨‍💻 Author
 
-Created by **[Dawid Olko](https://github.com/dawidolko)**
+**Dawid Olko** · Fullstack / AI Developer
 
-- **Website** — [dawidolko.pl](https://dawidolko.pl/)
-- **LinkedIn** — [@dawidolko](https://www.linkedin.com/in/dawidolko/)
+[Portfolio](https://olkodawid.dawidolko.pl) · [CV](https://cv.dawidolko.pl) · [LinkedIn](https://www.linkedin.com/in/dawidolko/) · [GitHub](https://github.com/dawidolko)
