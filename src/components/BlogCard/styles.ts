@@ -49,7 +49,7 @@ export const CategoryBadge = styled("span")<{ bgColor?: string }>`
   background: ${({ bgColor }) => bgColor || "#2e186a"};
   width: fit-content;
   margin-bottom: 0.75rem;
-  font-family: "Motiva Sans Bold", sans-serif;
+  font-family: "DM Sans Bold", sans-serif;
   letter-spacing: 0.3px;
 `;
 
@@ -58,7 +58,7 @@ export const CardTitle = styled("h3")`
   line-height: 1.4;
   color: #18216d;
   margin: 0 0 0.75rem 0;
-  font-family: "Motiva Sans Bold", sans-serif;
+  font-family: "DM Sans Bold", sans-serif;
 
   @media only screen and (max-width: 414px) {
     font-size: 1.1rem;
@@ -99,7 +99,7 @@ export const AuthorAvatar = styled("span")`
 export const AuthorName = styled("span")`
   font-size: 0.8rem;
   color: #18216d;
-  font-family: "Motiva Sans Bold", sans-serif;
+  font-family: "DM Sans Bold", sans-serif;
 `;
 
 export const ReadTime = styled("span")`

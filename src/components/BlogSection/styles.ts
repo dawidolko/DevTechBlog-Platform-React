@@ -14,7 +14,7 @@ export const SectionTitle = styled("h2")`
   font-size: 2.5rem;
   color: #18216d;
   margin-bottom: 0.5rem;
-  font-family: "Motiva Sans Bold", sans-serif;
+  font-family: "DM Sans Bold", sans-serif;
 
   @media only screen and (max-width: 414px) {
     font-size: 1.8rem;
@@ -60,7 +60,7 @@ export const CategoryChip = styled("button")<{ active?: boolean; chipColor?: str
   font-size: 0.9rem;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
-  font-family: "Motiva Sans Light", sans-serif;
+  font-family: "DM Sans Light", sans-serif;
 
   &:hover {
     border-color: ${({ chipColor }) => chipColor || "#2e186a"};

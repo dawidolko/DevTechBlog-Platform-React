@@ -34,7 +34,7 @@ export const CategoryBadge = styled("span")<{ bgColor?: string }>`
   color: #fff;
   background: ${({ bgColor }) => bgColor || "#2e186a"};
   margin-bottom: 1rem;
-  font-family: "Motiva Sans Bold", sans-serif;
+  font-family: "DM Sans Bold", sans-serif;
 `;
 
 export const PostTitle = styled("h1")`
@@ -42,7 +42,7 @@ export const PostTitle = styled("h1")`
   line-height: 1.2;
   color: #18216d;
   margin: 0 0 1.5rem 0;
-  font-family: "Motiva Sans Bold", sans-serif;
+  font-family: "DM Sans Bold", sans-serif;
 
   @media only screen and (max-width: 768px) {
     font-size: 2rem;
@@ -81,7 +81,7 @@ export const AuthorName = styled("span")`
   font-size: 0.95rem;
   font-weight: 700;
   color: #18216d;
-  font-family: "Motiva Sans Bold", sans-serif;
+  font-family: "DM Sans Bold", sans-serif;
 `;
 
 export const AuthorRole = styled("span")`
@@ -144,7 +144,7 @@ export const PostContent = styled("div")`
 
   strong {
     color: #18216d;
-    font-family: "Motiva Sans Bold", sans-serif;
+    font-family: "DM Sans Bold", sans-serif;
   }
 
   ul,
@@ -197,7 +197,7 @@ export const Tag = styled("span")`
   border-radius: 20px;
   font-size: 0.8rem;
   color: #18216d;
-  font-family: "Motiva Sans Light", sans-serif;
+  font-family: "DM Sans Light", sans-serif;
 `;
 
 export const RelatedSection = styled("section")`
@@ -210,7 +210,7 @@ export const RelatedTitle = styled("h3")`
   font-size: 1.5rem;
   color: #18216d;
   margin-bottom: 1.5rem;
-  font-family: "Motiva Sans Bold", sans-serif;
+  font-family: "DM Sans Bold", sans-serif;
 `;
 
 export const RelatedGrid = styled("div")`

@@ -176,7 +176,7 @@ To add a new blog post, edit `src/data/posts.ts` and add an entry to the `blogPo
 
 ## 📄 License
 
-This project is open source and available under the [MIT License](LICENSE).
+This project is open source and available under the [MIT License](LICENSE). Fonts and other third-party material keep their own licences, listed in [CREDITS.md](CREDITS.md).
 
 ---
 

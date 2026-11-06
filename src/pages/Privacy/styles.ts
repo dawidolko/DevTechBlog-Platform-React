@@ -25,7 +25,7 @@ export const PageTitle = styled("h1")`
   font-size: 2.5rem;
   color: #18216d;
   margin-bottom: 0.5rem;
-  font-family: "Motiva Sans Bold", sans-serif;
+  font-family: "DM Sans Bold", sans-serif;
 
   @media only screen and (max-width: 414px) {
     font-size: 1.8rem;
@@ -48,7 +48,7 @@ export const SectionTitle = styled("h2")`
   font-size: 1.4rem;
   color: #18216d;
   margin-bottom: 0.75rem;
-  font-family: "Motiva Sans Bold", sans-serif;
+  font-family: "DM Sans Bold", sans-serif;
 `;
 
 export const Paragraph = styled("p")`
